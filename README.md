@@ -4,5 +4,5 @@
 <ol>
   <li>Download and install IntelliJ Idea and SDK</li> 
   <li>Download and install Weka library from this link: https://waikato.github.io/weka-wiki/downloading_weka/</li>
-  <li>Add weka.jar file as an external library to your project</li>
+  <li>Add the weka.jar file as an external library to your project</li>
 </ol>
