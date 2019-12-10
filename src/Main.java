@@ -17,7 +17,7 @@ public class Main {
     public static void main(String args[])throws Exception{
 
         double minSup = 0.1;
-        int numRules = 10000000;
+        int numRules = 100000;
 
         String dataset = "C:\\Program Files\\Weka-3-8\\data\\supermarket.arff";
         DataSource source = new DataSource(dataset);
@@ -64,6 +64,8 @@ public class Main {
 
         }
 
-
+        for (int i = 0; i < frequentPatterns.size(); i++) {
+            System.out.println(frequentPatterns.get(i));
+        }
     }
 }
